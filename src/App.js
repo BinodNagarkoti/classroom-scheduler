@@ -114,9 +114,9 @@ function App() {
         </nav>
         <div className="container">
             <form className={styles.formRoot} noValidate autoComplete="off">
-                <div class="alert alert-danger" role="alert">
+                {error.length > 0 && <div class="alert alert-danger" role="alert">
                     {error}
-                </div>
+                </div>}
                 <Typography variant="body2" className="card-subtitle mb-2 text-muted" color="textSecondary" component="p">
                     {docid !== null ? "You can edit desired values and click update" : ''}
                 </Typography>
