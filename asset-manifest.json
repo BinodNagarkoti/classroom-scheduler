@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/classroom-scheduler/static/css/main.40c32bb9.chunk.css",
+    "main.js": "/classroom-scheduler/static/js/main.3e37a08a.chunk.js",
+    "main.js.map": "/classroom-scheduler/static/js/main.3e37a08a.chunk.js.map",
+    "runtime-main.js": "/classroom-scheduler/static/js/runtime-main.69cf139b.js",
+    "runtime-main.js.map": "/classroom-scheduler/static/js/runtime-main.69cf139b.js.map",
+    "static/js/2.0433bd63.chunk.js": "/classroom-scheduler/static/js/2.0433bd63.chunk.js",
+    "static/js/2.0433bd63.chunk.js.map": "/classroom-scheduler/static/js/2.0433bd63.chunk.js.map",
+    "static/js/3.83f81ee0.chunk.js": "/classroom-scheduler/static/js/3.83f81ee0.chunk.js",
+    "static/js/3.83f81ee0.chunk.js.map": "/classroom-scheduler/static/js/3.83f81ee0.chunk.js.map",
+    "index.html": "/classroom-scheduler/index.html",
+    "static/css/main.40c32bb9.chunk.css.map": "/classroom-scheduler/static/css/main.40c32bb9.chunk.css.map",
+    "static/js/2.0433bd63.chunk.js.LICENSE.txt": "/classroom-scheduler/static/js/2.0433bd63.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69cf139b.js",
+    "static/js/2.0433bd63.chunk.js",
+    "static/css/main.40c32bb9.chunk.css",
+    "static/js/main.3e37a08a.chunk.js"
+  ]
+}
