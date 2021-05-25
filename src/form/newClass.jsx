@@ -220,6 +220,8 @@ export const NewClass = (props) => {
                         size="small"
                         variant="outlined"
                         label="Add"
+                        className="close"
+                        data-dismiss="modal"
                         color="primary"
                         onClick={() => {
                             if (validateValue()) {
