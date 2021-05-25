@@ -6,7 +6,10 @@ export default function WithLoader(props) {
         if (props.isLoading) {
             toRender = <>
                 <div style={{margin: '0 auto'}}>
-                <Skeleton />
+                <Skeleton variant="rect" width={210} height={118} />
+                <Skeleton width={150}  />
+                <Skeleton width={100} />
+
                 </div>
                 <br/>
             </>;

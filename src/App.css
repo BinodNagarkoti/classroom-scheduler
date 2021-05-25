@@ -2,4 +2,6 @@
 .App {
     text-align: center;
   }
-  
+  .nav-item > .active {
+    border-bottom: 1px solid #333;
+}
