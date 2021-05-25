@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/classroom-scheduler/static/css/main.0db9d953.chunk.css",
-    "main.js": "/classroom-scheduler/static/js/main.8a8cad8a.chunk.js",
-    "main.js.map": "/classroom-scheduler/static/js/main.8a8cad8a.chunk.js.map",
+    "main.js": "/classroom-scheduler/static/js/main.41a6187d.chunk.js",
+    "main.js.map": "/classroom-scheduler/static/js/main.41a6187d.chunk.js.map",
     "runtime-main.js": "/classroom-scheduler/static/js/runtime-main.475a5578.js",
     "runtime-main.js.map": "/classroom-scheduler/static/js/runtime-main.475a5578.js.map",
     "static/js/2.6ef3c3af.chunk.js": "/classroom-scheduler/static/js/2.6ef3c3af.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.475a5578.js",
     "static/js/2.6ef3c3af.chunk.js",
     "static/css/main.0db9d953.chunk.css",
-    "static/js/main.8a8cad8a.chunk.js"
+    "static/js/main.41a6187d.chunk.js"
   ]
 }
