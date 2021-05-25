@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/classroom-scheduler/static/css/main.40c32bb9.chunk.css",
-    "main.js": "/classroom-scheduler/static/js/main.54e1535e.chunk.js",
-    "main.js.map": "/classroom-scheduler/static/js/main.54e1535e.chunk.js.map",
-    "runtime-main.js": "/classroom-scheduler/static/js/runtime-main.69cf139b.js",
-    "runtime-main.js.map": "/classroom-scheduler/static/js/runtime-main.69cf139b.js.map",
-    "static/js/2.0433bd63.chunk.js": "/classroom-scheduler/static/js/2.0433bd63.chunk.js",
-    "static/js/2.0433bd63.chunk.js.map": "/classroom-scheduler/static/js/2.0433bd63.chunk.js.map",
-    "static/js/3.83f81ee0.chunk.js": "/classroom-scheduler/static/js/3.83f81ee0.chunk.js",
-    "static/js/3.83f81ee0.chunk.js.map": "/classroom-scheduler/static/js/3.83f81ee0.chunk.js.map",
+    "main.css": "/classroom-scheduler/static/css/main.0db9d953.chunk.css",
+    "main.js": "/classroom-scheduler/static/js/main.8a8cad8a.chunk.js",
+    "main.js.map": "/classroom-scheduler/static/js/main.8a8cad8a.chunk.js.map",
+    "runtime-main.js": "/classroom-scheduler/static/js/runtime-main.475a5578.js",
+    "runtime-main.js.map": "/classroom-scheduler/static/js/runtime-main.475a5578.js.map",
+    "static/js/2.6ef3c3af.chunk.js": "/classroom-scheduler/static/js/2.6ef3c3af.chunk.js",
+    "static/js/2.6ef3c3af.chunk.js.map": "/classroom-scheduler/static/js/2.6ef3c3af.chunk.js.map",
+    "static/js/3.896e1d52.chunk.js": "/classroom-scheduler/static/js/3.896e1d52.chunk.js",
+    "static/js/3.896e1d52.chunk.js.map": "/classroom-scheduler/static/js/3.896e1d52.chunk.js.map",
     "index.html": "/classroom-scheduler/index.html",
-    "static/css/main.40c32bb9.chunk.css.map": "/classroom-scheduler/static/css/main.40c32bb9.chunk.css.map",
-    "static/js/2.0433bd63.chunk.js.LICENSE.txt": "/classroom-scheduler/static/js/2.0433bd63.chunk.js.LICENSE.txt"
+    "static/css/main.0db9d953.chunk.css.map": "/classroom-scheduler/static/css/main.0db9d953.chunk.css.map",
+    "static/js/2.6ef3c3af.chunk.js.LICENSE.txt": "/classroom-scheduler/static/js/2.6ef3c3af.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.69cf139b.js",
-    "static/js/2.0433bd63.chunk.js",
-    "static/css/main.40c32bb9.chunk.css",
-    "static/js/main.54e1535e.chunk.js"
+    "static/js/runtime-main.475a5578.js",
+    "static/js/2.6ef3c3af.chunk.js",
+    "static/css/main.0db9d953.chunk.css",
+    "static/js/main.8a8cad8a.chunk.js"
   ]
 }
