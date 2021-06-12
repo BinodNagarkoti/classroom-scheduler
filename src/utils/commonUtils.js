@@ -8,3 +8,23 @@ export const dateTOAMORPM = (date) => {
   var strTime = hours + ':' + minutes + ' ' + ampm;
   return strTime;
 };
+
+export const getDay = (strDay)=>{
+  switch(strDay.toLowerCase()){
+    case 'sunday':
+      return 0;
+    case 'monday':
+      return 1;
+    case 'tuesday':
+      return 2;
+    case 'weddnesday':
+      return 3;
+    case 'thursday':
+      return 4;
+    case 'friday':
+      return 5;
+    case 'saturday': 
+      return 6;
+    
+  }
+}

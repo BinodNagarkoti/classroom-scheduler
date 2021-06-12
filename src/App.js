@@ -7,6 +7,7 @@ import WithLoader from './withLoader';
 import { useDispatch, useSelector } from 'react-redux';
 import { Navbar } from './Navbar/navbar';
 import { setData } from './redux/classes';
+import {getDay} from './utils/commonUtils'
 import { BootstrapModal } from './Modal/bootstrapModal';
 import './App.css';
 import { ClassCard } from './Card/classcard';
@@ -34,25 +35,38 @@ function App() {
     const db = firebase.firestore();
     const styles = useStyles();
     const today = new Date();
-    useEffect(() => {
-        const fetchData = async () => {
-            db.collection('classes').onSnapshot((snapshot) => {
-                const data = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
-                dispatch(setData(data));
-            });
-        };
-        fetchData();
-    }, []);
     let {
         error,
         data,
         formData: { docid },
     } = useSelector((state) => state.classes);
+    useEffect(() => {
+        const fetchData = async () => {
+            db.collection('classes').onSnapshot((snapshot) => {
+                const newdata = snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() }));
+                dispatch(setData(newdata));
+            });
+        };
+        fetchData().then(()=> {
+            
+        });
+    }, []);
+    if(data !== undefined){
+    let upcommingEvents=[];
+        data && data?.forEach((item, dataIndex) => {
+                item?.days.split(',').map((day, dayIndex)=>{
+                let rmd= (getDay(day) - new Date().getDay());
+
+                if(rmd > 0){
+                    upcommingEvents.push({ remainingDays: rmd, dataIndex, dayIndex })
+                }
+            })
+            console.log({upcommingEvents})
+        });
+    }
 
     const [classModelTitle, setClassModelTitle] = useState('Create New Class Schedule');
-    // if (docid) {
-    //     setClassModelTitle('Update Class Schedule');
-    // }
+  
     return (
         <>
             {/* <!-- As a heading --> */}

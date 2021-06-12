@@ -9,6 +9,9 @@ import {
     Card,
     CardActionArea,
 } from '@material-ui/core';
+import FaceIcon from '@material-ui/icons/Face';
+import SubjectIcon from '@material-ui/icons/Subject';
+import MeetingRoomIcon from '@material-ui/icons/MeetingRoom';
 import { useDispatch } from 'react-redux';
 import firebase from '../firestore';
 import { setFormData, clearFormData } from '../redux/classes';
@@ -59,11 +62,22 @@ export const ClassCard = ({
                         <br />
                         <Typography variant="body2" color="textSecondary" component="div">
                             <Chip
-                                avatar={<Avatar>{teachername[0]}</Avatar>}
+                                className = 'mr-1'
+                                icon={<FaceIcon fontSize={'small'}/>}
                                 label={teachername}
                                 color="primary"
                             />
+                             <Chip
+                                className = 'mr-1'
+                                icon={<MeetingRoomIcon fontSize={'small'} />}
+                                label={roomno}
+                            />
+                               <Chip
+                               icon={<SubjectIcon fontSize={'small'}/>}
+                                label={subjectname}
+                            />
                         </Typography>
+          
                     </CardContent>
                 </CardActionArea>
                 <CardActions>
