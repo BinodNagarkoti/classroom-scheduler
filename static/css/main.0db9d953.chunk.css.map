@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/App.css"],"names":[],"mappings":"AACA,KACI,iBACF,CACA,kBACE,4BACJ","file":"main.0db9d953.chunk.css","sourcesContent":["\n.App {\n    text-align: center;\n  }\n  .nav-item > .active {\n    border-bottom: 1px solid #333;\n}"]}
